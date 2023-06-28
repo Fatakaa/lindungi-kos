@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- custome css  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Selamat Datang!</title>
+  </head>
+  <body>
+    <div class="main-parent">
+      <div class="form-wrap">
+        <form id="login-form">
+          <h1><span>LINDUNGI</span>KOST</h1>
+          <div class="single-input">
+            <input
+              id="emailAddress"
+              type="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="single-input">
+            <input
+              id="nickname"
+              type="text"
+              name="nickname"
+              placeholder="Nickname"
+              required
+            />
+          </div>
+          <div class="single-input">
+            <input
+              id="passWord"
+              type="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="submit-button">
+            <button class="button login" type="login">Login</button>
+          </div>
+          <div class="account-have">
+            Don't have account?&nbsp;
+            <a href="register.html">Signup Now</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="dist/sweetalert2.all.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
